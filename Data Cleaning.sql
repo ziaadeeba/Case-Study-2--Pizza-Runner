@@ -47,7 +47,7 @@
 
 
  --Cleaning the customer_orders table
-         UPDATE customer_orders
+        UPDATE customer_orders
         SET exclusions = ' '
         WHERE exclusions = 'null'
 
@@ -61,21 +61,21 @@
         
         
   --Cleaning the runners table
-    UPDATE runners
-		SET registration_date = '2020-01-01'
-		WHERE runner_id = 1
+    	UPDATE runners
+	SET registration_date = '2020-01-01'
+	WHERE runner_id = 1
 
-		UPDATE runners
-		SET registration_date = '2020-01-03'
-		WHERE runner_id = 2
+	UPDATE runners
+	SET registration_date = '2020-01-03'
+	WHERE runner_id = 2
 
-		UPDATE runners
-		SET registration_date = '2020-01-08'
-		WHERE runner_id = 3
+	UPDATE runners
+	SET registration_date = '2020-01-08'
+	WHERE runner_id = 3
 
-		UPDATE runners
-		SET registration_date = '2020-01-15'
-		WHERE runner_id = 4
+	UPDATE runners
+	SET registration_date = '2020-01-15'
+	WHERE runner_id = 4
     
     
     
